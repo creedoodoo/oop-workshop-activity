@@ -1,0 +1,168 @@
+/* ==========================================
+   Library Management System — Dark Theme CSS
+   ========================================== */
+
+/* ======= ComboBox Dark Theme ======= */
+.combo-box {
+    -fx-background-color: rgba(255,255,255,0.09);
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(255,255,255,0.1);
+    -fx-border-radius: 8;
+}
+
+.combo-box > .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8a9bb5;
+    -fx-font-size: 13;
+}
+
+.combo-box > .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box > .arrow-button > .arrow {
+    -fx-background-color: #8a9bb5;
+}
+
+.combo-box-popup > .list-view {
+    -fx-background-color: #1a1a2e;
+    -fx-border-color: rgba(255,255,255,0.15);
+    -fx-background-radius: 8;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell {
+    -fx-background-color: #1a1a2e;
+    -fx-text-fill: #cbd5e0;
+    -fx-padding: 8 14;
+}
+
+.combo-box-popup > .list-view > .virtual-flow > .clipped-container > .sheet > .list-cell:hover {
+    -fx-background-color: rgba(102,126,234,0.25);
+    -fx-text-fill: white;
+}
+
+/* ======= Spinner Dark Theme ======= */
+.spinner {
+    -fx-background-color: rgba(255,255,255,0.09);
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(255,255,255,0.1);
+    -fx-border-radius: 8;
+}
+
+.spinner > .text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #8a9bb5;
+    -fx-padding: 8 12;
+    -fx-font-size: 13;
+}
+
+.spinner > .increment-arrow-button,
+.spinner > .decrement-arrow-button {
+    -fx-background-color: rgba(255,255,255,0.06);
+    -fx-border-color: rgba(255,255,255,0.08);
+}
+
+.spinner > .increment-arrow-button:hover,
+.spinner > .decrement-arrow-button:hover {
+    -fx-background-color: rgba(255,255,255,0.12);
+}
+
+.spinner > .increment-arrow-button > .increment-arrow,
+.spinner > .decrement-arrow-button > .decrement-arrow {
+    -fx-background-color: #8a9bb5;
+}
+
+/* ======= TableView Dark Theme ======= */
+.table-view {
+    -fx-background-color: #0f1923;
+    -fx-table-cell-border-color: rgba(255,255,255,0.05);
+    -fx-control-inner-background: #0f1923;
+    -fx-control-inner-background-alt: #121f2b;
+    -fx-selection-bar: rgba(102,126,234,0.25);
+    -fx-selection-bar-non-focused: rgba(102,126,234,0.15);
+}
+
+.table-view .filler,
+.table-view .show-hide-columns-button {
+    -fx-background-color: #131d29;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #131d29;
+}
+
+.table-view .column-header-background .filler {
+    -fx-background-color: #131d29;
+}
+
+.table-view .column-header {
+    -fx-background-color: #131d29;
+    -fx-border-color: transparent transparent rgba(255,255,255,0.1) transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #cbd5e0;
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #0f1923;
+    -fx-border-color: transparent transparent rgba(255,255,255,0.04) transparent;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #121f2b;
+}
+
+.table-view .table-row-cell:selected {
+    -fx-background-color: rgba(102,126,234,0.25);
+}
+
+.table-view .table-row-cell:hover {
+    -fx-background-color: rgba(255,255,255,0.06);
+}
+
+.table-view .table-row-cell .text {
+    -fx-fill: #e2e8f0;
+}
+
+.table-view .table-row-cell:empty {
+    -fx-background-color: #0f1923;
+    -fx-border-color: transparent;
+}
+
+.table-view .table-row-cell:empty .table-cell {
+    -fx-border-color: transparent;
+}
+
+/* Fix the corner and scrollbar areas */
+.table-view .virtual-flow .corner {
+    -fx-background-color: #0f1923;
+}
+
+.table-view .scroll-bar {
+    -fx-background-color: #0f1923;
+}
+
+.table-view .scroll-bar .thumb {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-background-radius: 4;
+}
+
+.table-view .scroll-bar .increment-button,
+.table-view .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.table-view .scroll-bar .increment-arrow,
+.table-view .scroll-bar .decrement-arrow {
+    -fx-background-color: transparent;
+}
+
+/* Placeholder for empty table */
+.table-view .placeholder .label {
+    -fx-text-fill: #718096;
+}
+
